@@ -1,5 +1,4 @@
-const btn = document.querySelector('.btn-toggle'),
-lines = btn.querySelectorAll('.line');
+const btn = document.querySelector('.btn-toggle');
 let btnClass = 'open';
 
 btn.addEventListener("click", () => {
